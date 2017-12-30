@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <!-- Style -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script src="gl-matrix.js"></script>
+
+    <!-- Config -->
+    <script src="config.js"></script>
+
+    <!-- Physics -->
+    <script src="physics.js"></script>
+
+    <!-- Entities -->
+    <script src="planet.js"></script>
+    <script src="system.js"></script>
+
+    <!-- Core -->
+    <script src="core.js"></script>
+</head>
+<body>
+  <div id="controlsContainer">
+    <div class="input" id="engineInput" title="Press space to toggle">
+      <span class="label">engine</span>
+      <div class="button"></div>
+    </div>
+    <div class="input" id="integratorInput" title="Active integrator method">
+      <span class="label">method</span>
+      <span class="value"></span>
+      <div class="slider"></div>
+    </div>
+    <div class="input" id="dtInput" title="The timestep used for the integrator">
+      <span class="label">dt</span>
+      <span class="value"></span>
+      <div class="slider"></div>
+    </div>
+    <div class="input" id="stepsInput" title="The amount of stepts taken per frame">
+      <span class="label">steps</span>
+      <span class="value"></span>
+      <div class="slider"></div>
+    </div>
+  </div>
+  <div id="canvasContainer"><canvas id="canvas"></canvas></div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+  margin: 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.ui-tooltip {
+  font-style: italic;
+  font-size: x-small;
+}
+
+#controlsContainer {
+  border-radius: 20px 0 0 20px;
+  padding: 20px;
+  background: #000;
+  width: 300px;
+  float: left;
+}
+
+.label {
+  font-weight: bolder;;
+}
+
+.slider {
+  margin-top: 10px;
+}
+
+.input {
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  background: #79BD9A;
+  margin-bottom: 20px;
+}
+
+.input:last-child {
+  margin: 0;
+}
+
+.button {
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: x-large;
+  font-weight: bolder;
+  user-select: none;
+}
+
+.button.active {
+  background: #B5D66B;
+}
+
+.button.inactive {
+  background: #F670C9;
+}
+
+#canvasContainer {
+  border-radius: 0 20px 20px 20px;
+  padding: 20px;
+  background: #000;
+  float: left;
+}
+
+#canvas {
+  border-radius: 20px;
+  padding: 20px;
+  background: #3B8686;
+}
